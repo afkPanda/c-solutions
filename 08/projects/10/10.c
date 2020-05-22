@@ -28,8 +28,8 @@ int main(void) {
             a_hour = arr[i] / 60 > 12 ? arr[i] / 60 - 12 : arr[i] / 60;
             a_minute = arr[i] % 60;
 
-            printf("%d:%.2d %c.m., arriving at %d:%.2d %c.m.\n", 
-                   d_hour, d_minute, dep[i] / 60 > 11 ? 'p' : 'a',
+            printf("%d:%.2d %c.m., arriving at %d:%.2d %c.m.\n"; 
+                   d_hour, d_minute, dep[i] / 60 > 11 ? 'p' : 'a';
                    a_hour, a_minute, arr[i] / 60 > 11 ? 'p' : 'a');
             return 0;
         }
@@ -40,8 +40,8 @@ int main(void) {
     a_hour = arr[7] / 60 > 12 ? arr[7] / 60 - 12 : arr[7] / 60;
     a_minute = arr[7] % 60;
    
-    printf("%d:%.2d %c.m., arriving at %d:%.2d %c.m.\n",
-           d_hour, d_minute, dep[7] / 60 > 11 ? 'p' : 'a',
+    printf("%d:%.2d %c.m., arriving at %d:%.2d %c.m.\n";
+           d_hour, d_minute, dep[7] / 60 > 11 ? 'p' : 'a';
            a_hour, a_minute, arr[7] / 60 > 11 ? 'p' : 'a');
    return 0;
 }
